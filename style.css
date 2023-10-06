@@ -16,6 +16,32 @@
     height: 100px;
     background: red;
 }
+
+/* esercizio 2  */
+.ex-2-square:active {
+    animation-name: rettangolone;
+    animation-duration: 1s;
+}
+
+@keyframes rettangolone {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 300px;
+    }
+    50% {
+        width: 500px;
+    }
+    75% {
+        width: 700px;
+    }
+    100% {
+        width: 1100px;
+    }
+}
+/* / esercizio 2  */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
