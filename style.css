@@ -118,7 +118,20 @@
 
 .ex-10-icon {
     font-size: 60px;
+    /* esercizio 10  */
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes rotate {
+    0%{
+        transform: rotate(360deg);
+    }
+} 
+/* / esercizio 10  */
+
 .ex-11-icon {
     font-size: 60px;
 }
