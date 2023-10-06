@@ -105,7 +105,17 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /* esercizio 9  */
+    transition: 2s;
 }
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: sepia(100%) brightness(100%);
+}
+/* /esercizio 9  */
+
 .ex-10-icon {
     font-size: 60px;
 }
