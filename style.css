@@ -78,6 +78,17 @@
 }
 /* / esercizio 6  */
 
+
+/* esercizio 7  */
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter:invert(100%) opacity(30%);
+}
+/* / esercizio 7  */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
