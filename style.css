@@ -72,6 +72,12 @@
     width: 500px;
 }
 
+/* esercizio 6  */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* / esercizio 6  */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
