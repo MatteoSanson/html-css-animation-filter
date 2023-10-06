@@ -132,9 +132,27 @@
 } 
 /* / esercizio 10  */
 
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* esercizio 11  */
+.ex-11-icon:hover {
+    animation-name: turnicaedigirati;
+    animation-duration: 2s;
+}
+
+@keyframes turnicaedigirati {
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(320deg);
+    }
+}
+/* / esercizio 11  */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
