@@ -212,10 +212,75 @@
         right: 20%;
     }
     50% {
-        right: 60%
+        right: 60%;
     }
     100% {
         right: 20%;
     }
 }
 /* /esercizio 12  */
+
+
+/* esercizio 13  */
+.ex-13-button:hover .ex-13-top-white {
+    animation: es13 3s linear;
+}
+
+@keyframes es13 {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    20% {
+        top: -10px;
+        left: 90%;
+    }
+    40% {
+        top: 90%;
+        left: 90%;
+    }
+    60% {
+        top: 90%;
+        left: -10px;
+    }
+    80% {
+        top: -10px;
+        left: -10px;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: es13b 3s linear;
+}
+
+@keyframes es13b {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    20% {
+        bottom: -10px;
+        right: 80%;
+    }
+    40% {
+        right: 80%;
+        bottom: 90%;
+    }
+    60% {
+        bottom: 90%;
+        right: -10px;
+    }
+    80% {
+        bottom: -10px;
+        right: -10px; 
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+/* /esercizio 13  */
